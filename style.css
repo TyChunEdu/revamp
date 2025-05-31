@@ -520,6 +520,16 @@ ul.disc {
   .show0 {
     justify-content: center;
   }
+
+  .toggle-container.horizontal {
+    display: block;
+    margin: 0 0;
+    width: 100%;
+  }
+
+  .toggle-container.horizontal.open .toggle-arrow {
+    transform: rotate(-90deg);
+  }
 }
 
 @media only screen and (max-width: 610px) {
@@ -529,5 +539,9 @@ ul.disc {
 
   table tr td {
     padding: 1px;
+  }
+
+  .shrink-width {
+    width: 100%;
   }
 }
