@@ -46,71 +46,84 @@ a img:hover, span img:hover {
   scroll-margin-top: 92px;
 }
 
-.bg0a {
+.bgB0 {
   background-color: #bcd6f0;
 }
 
-.bg0b {
+section.bgB0 a {
+  color: #2a5c99;
+}
+
+.bgB1 {
   background-color: #3a71c1;
   color: #ffffff;
 }
 
-section.bg0a a {
-  color: #2a5c99;
+.hover-caption .caption.bgB1 {
+  background-color: rgba(58, 113, 193, 0.9);
 }
 
-.bg0c {
+.bgB2 {
   background-color: #2a5c99;
   color: #ffffff;
 }
 
-.bg0d {
+.bgB3 {
   background-color: #4f6175;
   color: #ffffff;
 }
 
-.bg1a {
+.bgY0 {
   background-color: #ffeb99;
 }
 
-.bg1b {
+section.bgY0 a {
+  color: #ffa700;
+}
+
+.bgY1 {
   background-color: #ffcc00;
   color: #ffffff;
 }
 
-section.bg1a a {
-  color: #ffa700;
+.hover-caption .caption.bgY1 {
+  background-color: rgba(255, 204, 0, 0.9);
+  color: black;
 }
 
-.bg1c {
+.bgY2 {
   background-color: #ffa700;
   color: #ffffff;
 }
 
-.bg1d {
+.bgY3 {
   background-color: #776c3f;
   color: #ffffff;
 }
 
-.bg2a {
+.bgP0 {
   background-color: #ffc1e3;
 }
 
-.bg2b {
+section.bgP0 a {
+  color: #ff3d8a;
+}
+
+.bgP1 {
   background-color: #ff69b4;
   color: #ffffff;
 }
 
-section.bg1a a {
-  color: #ff3d8a;
+.hover-caption .caption.bgP1 {
+  background-color: rgba(255, 105, 180, 0.9);
 }
 
-.bg2c {
+.bgP2 {
   background-color: #ff3d8a;
   color: #ffffff;
 }
 
-.bg2d {
+.bgP3 {
   background-color: #805768;
   color: #ffffff;
 }
@@ -443,6 +456,10 @@ iframe {
 
 .left-right-container p {
   margin-bottom: 0;
+}
+
+ul.disc {
+  list-style-type: disc;
 }
 
 @media only screen and (max-width: 1220px) {
