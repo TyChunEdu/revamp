@@ -132,6 +132,10 @@ section.bgP0 a {
   background-color: white;
 }
 
+section.bgW a {
+  color: dimgrey;
+}
+
 /*nav {
   position: sticky;
   padding-left: 8%;
@@ -449,6 +453,12 @@ iframe {
   opacity: 1;
 }
 
+.hover-caption .caption.default-show {
+  opacity: 1;
+  background-color: white;
+  color: black; /* optional: to contrast white bg */
+}
+
 .left-right-container {
   justify-content: space-between;
   display: flex;
@@ -460,6 +470,25 @@ iframe {
 
 ul.disc {
   list-style-type: disc;
+}
+
+.skill-card {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-label {
+  background: rgba(255, 255, 2255, 0.9);
+  padding: 0.5em 0em;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1em;
 }
 
 @media only screen and (max-width: 1220px) {
