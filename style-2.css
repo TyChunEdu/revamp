@@ -491,6 +491,17 @@ ul.disc {
   font-size: 1em;
 }
 
+#filters {
+  justify-content: center;
+  display: flex;
+  gap: 4%;
+}
+
+#courses {
+  margin: auto;
+  width: 60%;
+}
+
 @media only screen and (max-width: 1220px) {
   nav ul li {
     margin: 0px 0px;
@@ -559,6 +570,11 @@ ul.disc {
   .toggle-container.horizontal.open .toggle-arrow {
     transform: rotate(-90deg);
   }
+
+  #courses {
+    margin: auto;
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 610px) {
@@ -571,6 +587,11 @@ ul.disc {
   }
 
   .shrink-width {
+    width: 100%;
+  }
+
+  #courses {
+    margin: auto;
     width: 100%;
   }
 }
